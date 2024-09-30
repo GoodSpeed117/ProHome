@@ -1,0 +1,7 @@
+{
+  "name": "prohome",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

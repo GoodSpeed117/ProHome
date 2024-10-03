@@ -1,0 +1,48 @@
+ion-content {
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar horizontalmente */
+    --background: #ffffff; /* Establece el fondo como blanco */
+    height: 100vh; /* Asegura que ocupe toda la altura de la vista */
+    padding: 0; /* Elimina el padding del ion-content */
+}
+
+.header {
+    margin: 0; /* Eliminar márgenes */
+    text-align: center; /* Centrar el texto */
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.signinLink {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin: 20px 0; /* Agrega margen vertical para espacio */
+    text-align: center; /* Asegúrate de que el texto esté centrado */
+}
+
+.input {
+    font-weight: 300;
+    color: #333; /* Color del texto para mayor contraste */
+}
+
+/* Estilo del placeholder en negro */
+ion-input::placeholder {
+    color: #000000; /* Cambia el color del placeholder a negro */
+    opacity: 1; /* Asegúrate de que el color sea opaco */
+}
+
+ion-item {
+    --background: #f1f1f1; /* Fondo para los elementos del formulario */
+    border-radius: 10px;
+    margin-bottom: 16px;
+}

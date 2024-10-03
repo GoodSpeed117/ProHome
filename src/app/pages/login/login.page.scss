@@ -1,0 +1,72 @@
+ion-content {
+    --background: #ffffff; /* Establece el fondo como blanco */
+    display: flex; /* Utiliza Flexbox */
+    flex-direction: column; /* Orientación vertical */
+    justify-content: start; /* Cambia a start para controlar la posición del contenido */
+    align-items: center; /* Centrar horizontalmente */
+    padding: 20px; /* Agrega un padding general para el contenido */
+    height: 100%; /* Asegúrate de que ocupe toda la altura disponible */
+}
+
+.header-section {
+    margin-top: 60px; /* Añade margen superior para mover el contenido hacia abajo */
+    margin-bottom: 20px; /* Espacio entre el encabezado y el formulario */
+    text-align: center; /* Centra el texto del encabezado */
+}
+
+.input {
+    font-weight: 300;
+    color: #333; /* Color del texto para mayor contraste */
+}
+
+/* Estilo del placeholder en negro */
+ion-input::placeholder {
+    color: #000000; /* Cambia el color del placeholder a negro */
+    opacity: 1; /* Asegúrate de que el color sea opaco */
+}
+
+ion-item {
+    --background: #f1f1f1; /* Fondo para los elementos del formulario */
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-top: 0; /* Asegúrate de que no haya margen superior */
+}
+
+.subTitle {
+    color: gray; /* Puedes ajustar el color si lo deseas */
+    font-size: 0.9rem;
+}
+
+.forgotpassword {
+    text-align: center; /* Centra el texto del enlace de "Forgot Password" */
+    margin-top: 10px; /* Espacio superior para separar del formulario */
+}
+
+.signupLink {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    position: relative; /* Cambia a relative para evitar superposición */
+    bottom: 0;
+    width: 80%;
+}
+
+.signupLink p {
+    font-size: 0.9em;
+}
+
+.signupLink a {
+    text-decoration: none;
+}
+
+.forgotpassword a {
+    font-weight: 400;
+    font-size: 0.8em;
+    text-decoration: none;
+}

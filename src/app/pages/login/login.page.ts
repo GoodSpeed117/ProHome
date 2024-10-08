@@ -30,7 +30,6 @@ export class LoginPage implements OnInit {
   get errorControl() {
     return this.loginForm?.controls;
   }
-
   async login() {
     const loading = await this.loadingController.create();
     await loading.present();
@@ -45,20 +44,17 @@ export class LoginPage implements OnInit {
         if (userCredential && userCredential.user) {
           console.log('Login Successful:', userCredential.user);
           await loading.dismiss();
-          this.route.navigate(['/home']); // Redirigir a home
+          this.route.navigate(['/home']); // Redirigir a home dentro de tabs
         } else {
           console.log('Login failed: No user returned');
           await loading.dismiss();
         }
       } catch (error) {
-        console.error('Error during login:', error.message); // Mostrar el mensaje de error
+        console.error('Error during login:', error.message);
         await loading.dismiss();
       }
     } else {
       console.log('Form is invalid');
-      console.log('Form Errors:', this.errorControl);
-      console.log('Email Errors:', this.errorControl['email'].errors);
-      console.log('Password Errors:', this.errorControl['password'].errors);
       await loading.dismiss();
     }
   }

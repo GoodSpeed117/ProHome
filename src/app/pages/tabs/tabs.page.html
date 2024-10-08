@@ -4,17 +4,22 @@
       <ion-icon name="home"></ion-icon>
       <ion-label>Home</ion-label>
     </ion-tab-button>
+
     <ion-tab-button tab="search">
       <ion-icon name="search"></ion-icon>
       <ion-label>Search</ion-label>
     </ion-tab-button>
-    <ion-tab-button tab="reservations">
-      <ion-icon name="calendar"></ion-icon>
-      <ion-label>Reservations</ion-label>
-    </ion-tab-button>
-    <ion-tab-button tab="offers">
+
+    <ion-tab-button tab="deals">
       <ion-icon name="pricetags"></ion-icon>
-      <ion-label>Offers</ion-label>
+      <ion-label>Deals</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="profile">
+      <ion-icon name="person"></ion-icon>
+      <ion-label>Profile</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
+
+  <ion-router-outlet></ion-router-outlet> <!-- Asegura que este elemento esté presente -->
 </ion-tabs>

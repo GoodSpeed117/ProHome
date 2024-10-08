@@ -44,7 +44,7 @@ export class LoginPage implements OnInit {
         if (userCredential && userCredential.user) {
           console.log('Login Successful:', userCredential.user);
           await loading.dismiss();
-          this.route.navigate(['/home']); // Redirigir a home dentro de tabs
+          this.route.navigate(['/tabs/home']); // Redirigir a home dentro de tabs
         } else {
           console.log('Login failed: No user returned');
           await loading.dismiss();

@@ -1,0 +1,160 @@
+.home-content {
+    text-align: center;
+    padding: 20px;
+  
+    h1 {
+      color: #ffd700; /* Color amarillo para los títulos */
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    p {
+      color: #333; /* Texto oscuro */
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    ion-button {
+      --background: #007bff; /* Azul claro */
+      --border-radius: 8px;
+    }
+  }
+  
+  /* Fondo principal de la página */
+  ion-content {
+    --background: #ffffff; /* Fondo blanco */
+  }
+  
+  /* Estilo del encabezado */
+  ion-header {
+    --background: #f1f1f1; /* Fondo gris claro para el toolbar */
+  }
+  
+  /* Estilo del título en el toolbar */
+  ion-toolbar ion-title {
+    color: #FFC33F; /* Texto amarillo para los títulos */
+    font-size: 1.8rem; /* Tamaño más grande para los títulos */
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilo para el contenido de ejemplo */
+  .example-content {
+    font-size: 1.2rem;
+    color: #333333; /* Texto gris oscuro */
+    text-align: center; /* Centrado */
+    margin: 20px 0;
+  }
+  
+  /* Estilo para las tarjetas */
+  ion-card {
+    --background: #fff4c1; /* Fondo amarillo claro para las tarjetas */
+    --color: #000000; /* Texto negro */
+    border-radius: 10px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos dentro del card */
+    padding: 16px; /* Espacio interno de la tarjeta */
+    min-height: 150px; /* Altura mínima de la tarjeta */
+  }
+  
+  /* Estilo para los títulos y subtítulos dentro de las tarjetas */
+  ion-card-title {
+    color: #000000; /* Texto negro para el título */
+    font-weight: bold;
+  }
+  
+  ion-card-subtitle {
+    color: gray; /* Texto gris claro para el subtítulo */
+  }
+  
+  /* Estilo para los ítems de las listas */
+  ion-item {
+    --background: #ffffff; /* Fondo blanco para los ítems */
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  
+  ion-item ion-label {
+    color: #333333; /* Texto gris oscuro para las etiquetas */
+  }
+  
+  /* Estilo para las imágenes en miniatura */
+  ion-thumbnail img {
+    border-radius: 10px;
+  }
+  
+  /* Estilo del tab-bar */
+  ion-tab-bar {
+    --background: #f1f1f1; /* Fondo gris claro para el tab-bar */
+  }
+  
+  ion-tab-button {
+    --color-selected: #FFC33F; /* Amarillo para la pestaña seleccionada */
+    color: #000000; /* Texto gris oscuro para las pestañas no seleccionadas */
+  }
+  
+  ion-tab-button ion-icon {
+    font-size: 1.5rem;
+  }
+  
+  /* Otros ajustes */
+  ion-tab-button.tab-selected ion-icon {
+    color: #FFC33F; /* Color amarillo para el icono seleccionado */
+  }
+  
+  ion-tab-button.tab-selected {
+    font-weight: bold;
+  }
+  
+  .ion-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Asegura que ocupe el 100% de la altura */
+  }
+  
+  ion-content.ion-page {
+    flex: 1; /* Permite que el contenido se expanda */
+  }
+  
+  /* Estilo del botón */
+  ion-button {
+    --background: #000000; /* Color de fondo del botón */
+    --color: #FFC33F; /* Color del texto del botón */
+    margin: 10px 0; /* Margen superior e inferior para separar los botones */
+    align-self: center; /* Centra el botón dentro del card */
+  }
+  
+  /* Si el botón tiene un color de borde personalizado */
+  ion-button.round-button.ion-button-outline {
+    --border-color: #FFC33F; /* Color del borde del botón */
+  }
+  
+  /* Estilo para el botón "Mostrar Más" */
+  ion-button#mostrar-mas {
+    margin: 20px 0; /* Espacio superior e inferior para separar del contenido */
+    display: block;
+    align-self: center; /* Centra el botón */
+  }
+  
+  /* Estilo general para ion-select */
+  ion-select {
+    --padding-start: 16px; /* Espacio dentro del select */
+    --padding-end: 16px; /* Espacio dentro del select */
+    --min-height: 48px; /* Altura mínima del select */
+    --background: #ffffff; /* Fondo blanco para el select */
+    --border-color: #cccccc; /* Color del borde */
+    --border-radius: 8px; /* Bordes redondeados */
+    --color: #333333; /* Color del texto */
+  }
+  
+  /* Estilo para el ícono del ion-select */
+  ion-select .select-icon {
+    color: #333333; /* Color del ícono */
+  }
+  
+  /* Estilo para las opciones del ion-select */
+  ion-select-option {
+    color: #333333; /* Color del texto de las opciones */
+  }
+  

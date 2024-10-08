@@ -1,0 +1,34 @@
+/* Fondo del tab-bar */
+ion-tab-bar {
+    --background: #f1f1f1; /* Gris claro */
+  }
+  
+  /* Estilo para los botones de las pestañas */
+  ion-tab-button {
+    --color: #000000; /* Texto gris oscuro para pestañas no seleccionadas */
+    --color-selected: #FFC33F; /* Color amarillo para la pestaña seleccionada */
+    font-weight: bold;
+  }
+  
+  /* Iconos dentro del tab-bar */
+  ion-tab-button ion-icon {
+    font-size: 1.5rem; /* Tamaño de los íconos */
+  }
+  
+  /* Icono cuando el tab está seleccionado */
+  ion-tab-button.tab-selected ion-icon {
+    color: #FFC33F; /* Amarillo para el icono seleccionado */
+  }
+  
+  /* Fondo principal de la página */
+  ion-content {
+    --background: #ffffff; /* Fondo blanco */
+  }
+  
+  /* Estilo del botón dentro del tab-bar */
+  ion-button {
+    --background: #000000; /* Fondo negro */
+    --color: #FFC33F; /* Texto amarillo */
+    margin: 10px 0; /* Espaciado superior e inferior */
+    align-self: center; /* Centra el botón */
+  }

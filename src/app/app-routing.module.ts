@@ -29,21 +29,22 @@ const routes: Routes = [
   },
   {
     path: 'deals',
-    loadChildren: () => import('./deals/deals.module').then( m => m.DealsPageModule)
+    loadChildren: () => import('./pages/deals/deals.module').then( m => m.DealsPageModule)
   },
   {
     path: 'search',
-    loadChildren: () => import('./search/search.module').then( m => m.SearchPageModule)
+    loadChildren: () => import('./pages/search/search.module').then( m => m.SearchPageModule)
   },
   {
     path: 'profile',
-    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
+    loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule)
   },
   {
     path: 'tabs',
-    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
   },
-
+//configurar lo de tabs para poder hacer la navegacion atra ves de los iconos y esto conlleva meter las paginas a navegar en el routing module de pages
+// verificar que si nos mande a home
 ];
 
 @NgModule({
